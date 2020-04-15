@@ -22,7 +22,7 @@ export default class List{
          this.items.splice(index, 1);
     }
 
-    upadateCount(id, newCount){
+    updateCount(id, newCount){
         this.items.find((el => el.id === id)).count = newCount;
     }
 }
