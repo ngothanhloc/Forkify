@@ -1,6 +1,7 @@
 import { elements } from './base';
 import {Fraction} from 'fractional';
 
+
 export const crearRecipe = ()=>{
     elements.recipe.innerHTML = '';
 };  
